@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1117</width>
+    <height>851</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="BloodGroupLabel">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Blood Group</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="RHFactorLabel">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>40</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RH Factor</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="BloodGpComboBox">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>A+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>A-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>O+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>O-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AB+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AB-</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="RHFactorComboBox">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>50</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Positive</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Negative</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="LogOutButton">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>0</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SearchButton">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>110</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="HomeButton">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>0</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>1041</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>User Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Last Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Sex</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Phone Number</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Blood Group</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Rh Factor</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DOB</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>State</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>City</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Address</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="DataNFLabel">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>80</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>No Data Found!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="StateLabel">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>50</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>State</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="StateComboBox">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>50</y>
+     <width>221</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>----</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>National Capital Territory of Delhi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Andra Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Arunachal Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Assam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bihar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chattisgarh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Goa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gujrat</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haryana</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Himachal Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jharkhand</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Karnataka</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kerala</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Madhya Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Maharashtra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Manipur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Meghalaya</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mizoram</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nagaland</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Odisha</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Punjab</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rajasthan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sikkim</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tamil Nadu</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Telangana</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tripura</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Uttar Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Uttrakhand</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>West Bengal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Andaman &amp; Nicobar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chandigarh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dadra &amp; Nagar Haveli &amp; Daman &amp; Diu</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jammu &amp; Kashmir</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ladakh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lakshadweep</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Puducherry</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

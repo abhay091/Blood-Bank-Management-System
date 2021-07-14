@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form</class>
+ <widget class="QWidget" name="form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1099</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="PhoneNumLabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>190</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Phone Number</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="RHFactorLabel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RH Factor</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BloodGroupLabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>240</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Blood Group</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="PhoneNumLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>181</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="StateLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>420</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>State</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="RHFactorComboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>300</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Positive</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Negative</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="SexLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sex</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DOBLabel">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>370</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>DOB</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="CityLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>470</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SubmitRegButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>670</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font: 10pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="BloodGpComboBox">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>240</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>A+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>A-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>O+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>O-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AB+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AB-</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="AddressLabel">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>530</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Address</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CityLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>460</y>
+     <width>55</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>City</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="StateComboBox">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>420</y>
+     <width>221</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>National Capital Territory of Delhi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Andra Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Arunachal Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Assam</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bihar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chattisgarh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Goa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gujrat</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haryana</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Himachal Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jharkhand</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Karnataka</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Kerala</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Madhya Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Maharashtra</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Manipur</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Meghalaya</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mizoram</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nagaland</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Odisha</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Punjab</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rajasthan</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sikkim</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tamil Nadu</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Telangana</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tripura</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Uttar Pradesh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Uttrakhand</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>West Bengal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Andaman &amp; Nicobar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chandigarh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dadra &amp; Nagar Haveli &amp; Daman &amp; Diu</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jammu &amp; Kashmir</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ladakh</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lakshadweep</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Puducherry</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="SexComboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>130</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Male</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Female</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Other</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QDateEdit" name="DOBEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>360</y>
+     <width>110</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="NameLabel">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>70</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Last Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>70</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="AddressLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>520</y>
+     <width>451</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LogoutButton">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>0</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="FNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>20</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="NameLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>20</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>First Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="SuccesReglabel">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>630</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(0, 0, 255)</string>
+   </property>
+   <property name="text">
+    <string>User is successfully registered!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="MandatoryRegLabel">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>590</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>All Fields are Mandatory</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="AlreadyRegLabel">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>610</y>
+     <width>311</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string>The user is already Registered!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="HomeButton">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>0</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
